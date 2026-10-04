@@ -1,3 +1,4 @@
+<img width="1297" height="875" alt="Captura de tela 2026-10-04 184426" src="https://github.com/user-attachments/assets/ab86112e-ca0c-48d7-9306-2924baa76fcf" />
 # Security Posture Scanner
 
 A lightweight, **read-only** reconnaissance tool for **authorized** security
@@ -72,6 +73,19 @@ python security_posture_scanner.py example.com --yes --no-color
   OPEN ISSUES:   2 High, 1 Medium, 3 Low
 ====================================================================
 ```
+## Demo & Evidence
+
+The scanner was run against **[badssl.com](https://badssl.com)** — a site
+intentionally maintained for TLS and web-security testing — to demonstrate the
+tool on a sanctioned target. All checks are passive and read-only.
+
+The scan returned a posture score of **26/100 (Grade F)**, flagging 2 high,
+4 medium and 4 low issues: missing HSTS and Content-Security-Policy headers,
+no SPF/DMARC records, and server version disclosure.
+
+**Terminal output**
+<img width="1297" height="875" alt="Captura de tela 2026-10-04 184426" src="https://github.com/user-attachments/assets/7ad6e182-55d6-4374-9d93-d6c72fee390e" />
+
 
 ## How it works
 
@@ -96,3 +110,11 @@ authorization before testing any system.
 ## License
 
 Released under the MIT License. See [LICENSE](LICENSE).
+
+
+
+
+
+
+<img width="1297" height="875" alt="Captura de tela 2026-10-04 184426" src="https://github.com/user-attachments/assets/fca006aa-a17c-48a8-9bd7-cd2a67081c4a" />
+
