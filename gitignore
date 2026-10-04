@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.Python
+
+# Tool output
+*.json
+report*.json
+!package.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
