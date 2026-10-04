@@ -113,11 +113,3 @@ authorization before testing any system.
 ## License
 
 Released under the MIT License. See [LICENSE](LICENSE).
-
-
-
-
-
-
-<img width="1297" height="875" alt="Captura de tela 2026-10-04 184426" src="https://github.com/user-attachments/assets/fca006aa-a17c-48a8-9bd7-cd2a67081c4a" />
-
