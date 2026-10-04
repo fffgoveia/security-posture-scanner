@@ -1,4 +1,4 @@
-<img width="1297" height="875" alt="Captura de tela 2026-10-04 184426" src="https://github.com/user-attachments/assets/ab86112e-ca0c-48d7-9306-2924baa76fcf" />
+
 # Security Posture Scanner
 
 A lightweight, **read-only** reconnaissance tool for **authorized** security
