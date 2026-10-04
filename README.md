@@ -86,6 +86,9 @@ no SPF/DMARC records, and server version disclosure.
 **Terminal output**
 <img width="1297" height="875" alt="Captura de tela 2026-10-04 184426" src="https://github.com/user-attachments/assets/7ad6e182-55d6-4374-9d93-d6c72fee390e" />
 
+> ⚠️ Targets used for demonstration are either reserved for testing
+> (`example.com`), explicitly authorized (`scanme.nmap.org`, `badssl.com`), or
+> owned by the author. Never scan systems you are not authorized to test.
 
 ## How it works
 
